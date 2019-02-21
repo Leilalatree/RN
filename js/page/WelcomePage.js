@@ -13,9 +13,11 @@ export default class WelcomePage extends Component<Props> {
 
             // this.props.navigation.navigate("Main")
 
-        },2000)
+        },100)
     }
-
+    componentWillMount() {
+        console.disableYellowBox = true
+    }
     componentWillUnMount(): void {
         this.timer && clearTimeout(this.timer)
     }

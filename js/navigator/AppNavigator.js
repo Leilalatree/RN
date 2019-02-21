@@ -9,6 +9,8 @@ import WelcomePage from "../page/WelcomePage"
 import HomePage from "../page/HomePage"
 import DetailPage from "../page/DetailPage"
 
+
+
 const  InitNavigator = createStackNavigator({
     WelcomePage:{
         screen:WelcomePage,
